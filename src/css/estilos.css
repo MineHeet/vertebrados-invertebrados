@@ -1,0 +1,157 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #5e5b5b;
+    color: #333333;
+ }
+
+ header .logo{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    width: 900px;
+    
+ }
+
+ header .titulo-pergunta{
+    background-color: #5e5b5bad;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+    width: 1300px;
+    background-color: rgb(4, 66, 66);
+    color: white;
+ }
+
+ header .titulo-resposta{
+   display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(190, 187, 187);
+ }
+
+ main .subtitulo{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+        background-color: rgb(4, 66, 66);
+    color: white;
+ }
+
+ main .baixo-titulo{
+   display: flex;
+    justify-content: center;
+    color: rgb(190, 187, 187);
+ }
+
+ main .subtitulo-apresentando{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgb(32, 139, 139);
+    color: white;
+ }
+
+ main {
+    padding: 25px;
+ }
+ 
+ 
+main .estes-vertebrados,
+main .estes-peixes,
+main .estes-anfibios,
+main .estes-repteis,
+main .estes-aves,
+main .estes-mamiferos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .sao-vertebrados{
+    background-color: #024361;
+    color: white;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+main .sao-vertebrados .informacoes{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #022327;
+    border-radius: 10px;
+ }
+
+ main .sao-vertebrados .informacoes .span{
+    padding: 50px;
+    text-transform: uppercase;
+    font-size: 250px;
+ }
+
+ main .sao-vertebrados .exemplo-de-animal{
+    width: 250PX;
+    height: 250px;
+ }
+
+ main .peixes,
+ main .anfibios,
+ main .repteis,
+ main .aves,
+ main .mamiferos{
+    background-color: #024361;
+    color: white;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+    gap: 20px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+ }
+
+ main .peixes .nome,
+ main .anfibios .nome,
+ main .repteis .nome,
+ main .aves .nome,
+ main .mamiferos .nome{
+    padding: 0.5px;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    border: #022327;
+    border-radius: 15px;
+    border: 2px solid #01202e;
+}
+
+
+main .peixes .exemplo-de-peixe,
+main .anfibios .exemplo-anfibios,
+main .aves .exemplo-de-aves,
+main .mamiferos .exemplo-de-mamiferos{
+    width: 200PX;
+    height: 200px;
+}
+
+main .descricao {
+    background-color:#024361;
+    border: 5px solid #01202e;
+    border-radius: 15px;
+    max-height: 140px;
+    overflow: scroll;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 15px;
+ }
+ 
